@@ -1,0 +1,148 @@
+/* @media screen and (max-width: 1024px)
+{ */
+
+body {
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+    width: 45%;
+}
+
+.hebergements{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 10px;
+}
+
+.hebergements_a_marseille {
+    font-family: 'Raleway Regular';
+    background-color: #F2F2F2;
+    width: 95%;
+    height: 750px;
+    margin: 20px;
+    padding-top: 2.5%;
+    border-radius: 20px;
+}
+
+.desc_heb_all {
+    font-size: 0.9em;
+}
+
+aside {
+    display: flex;
+    font-size: 120%;
+    font-family: 'Raleway Regular';
+    background-color: #F2F2F2;
+    width: 95%;
+    margin: 20px;
+    border-radius: 20px;
+    padding-top: 2.5%;
+    height: 220px;
+    padding-bottom: 2%;
+}
+
+.principal_pop {
+    display: flex;
+    flex-direction: row;
+    height: 85%;
+    padding-top: 0%;
+    width: 98%;
+}
+
+.clic_pop {
+    height: 80%;
+    width: 33%;
+}
+
+.figures_pop {
+    display: flex;
+    background-color: white;
+    width: 88%;
+    height: 100%;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px silver;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.img_pop {
+    position: relative;
+    overflow: hidden;
+    width: 75%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.auberge_pop_1 {
+    position: absolute;
+    height: 108%;
+    border-radius: 20px 0px 0px 20px;
+    left: -35%;
+    top: -4%;
+}
+
+.auberge_pop_2 {
+    position: absolute;
+    height: 108%;
+    border-radius: 20px 0px 0px 20px;
+    left: -25%;
+    top: -3%;
+}
+
+.auberge_pop_3 {
+    position: absolute;
+    height: 155%;
+    border-radius: 20px 0px 0px 20px;
+    top: -27%;
+    left: -5%;
+}
+
+.desc_pop {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.9em;
+    width: 90%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+}
+
+.desc_heb_pop {
+    font-family: 'Raleway bold';
+    font-size: 0.9em;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+.figure_act_1 {
+    text-align: center;
+}
+
+.figure_act_2 {
+    text-align: center;
+}
+
+.figure_act_3 {
+    text-align: center;
+}
+
+.figure_act_2_2 {
+    text-align: center;
+}
+
+.figure_act_3_2 {
+    text-align: center;
+}
+
+.desc_act {
+    font-size: 0.8em;
+    padding-left: 0%;
+}
+
+/* } */

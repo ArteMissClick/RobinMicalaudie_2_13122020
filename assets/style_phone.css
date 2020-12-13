@@ -1,0 +1,746 @@
+/* @media screen and (max-width: 600px)
+{ */
+
+    body {
+        font-family: 'Raleway Regular';
+        margin: 0%;
+    }
+    
+    
+    /* header */
+    
+    header {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+    .tete {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .logo {
+        margin-bottom: 2.5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    
+    .reserv {
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+    
+    nav {
+        align-items: center;
+        font-size: 1.1em;
+        width: 100%
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+     
+    li {
+         border-bottom: 3px #F2F2F2 solid;
+         padding-bottom: 20px;
+         width: 50%;
+         text-align: center;
+    }
+
+    .blue_1, .blue_2 {
+        display: block;
+        width: 100%;
+        padding-right: 0%;
+        padding-left: 0%;
+        margin-right: 0%;
+    }
+    
+    .blue_1:hover {
+        padding-top: 0%;
+        color: black;
+        border-top: none;
+    }
+    
+    .blue_2:hover {
+        padding-top: 0%;
+        color: black;
+        border-top: none;
+    }
+
+    .blue_1:active {
+        color: #0065FC;
+    }
+
+    .blue_2:active {
+        color: #0065FC;
+    }
+     
+    li:active {
+        color: #0065FC;
+        border-color: #0065FC;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        padding-left: 0%;
+        width: 100%;
+    }
+    
+    .recherche {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    
+    .intro {
+        font-family: 'Raleway Bold';
+        font-size: 1.5em;
+        margin-bottom: 0.5%;
+    }
+    
+    .entre {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+    .inscription {
+        color: #0065FC;
+        font-family: 'Raleway Bold';
+        justify-content: flex-end;
+        margin-top: 5%;
+        margin-right: 3%;
+        width: auto;
+    }
+    
+    .mobile_visible {
+        display: inline-block;
+    }
+
+    .mobile_invisible {
+        display: none;
+    }
+
+    
+    .formulaire {
+        display: flex;
+        justify-content: flex-end;
+        height: 47px;
+    }
+    
+    .fa-map-marker-alt {
+        font-size: 1.1em;
+        margin: 0;
+        padding: 3.7%;
+        padding-right: 4.5%;
+        padding-left: 4.5%;
+        background-color: #F2F2F2;
+        border: 1px solid #F2F2F2;
+        border-radius: 40% 0px 0px 40%;
+    }
+    
+    .champ {
+        font-family: 'Raleway Bold';
+        font-size: 1.2em;
+        border: 1px solid #F2F2F2;
+        width: 90%;
+        border-radius: 0% 25px 25px 0%;
+    }
+    
+    .bouton {
+        font-family: 'Raleway Bold';
+        font-size: 1.1em;
+        border: 1px solid #0065FC;
+        border-radius: 35%;
+        color: white;
+        background-color: #0065FC;
+        position: absolute;
+        height: 7%;
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+    
+    .filtres {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+        font-family: 'Raleway Bold';
+        margin-top: 20px;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    
+    .filts {
+        margin-bottom: 10px;
+        font-size: 1.2em;
+        margin-right: 50%;
+    }
+    
+    .desc_filtres {
+        font-size: 1.1em;
+        margin: 10px;
+        margin-bottom: 20px;
+        border: 2px solid silver;
+        border-radius: 22px / 50% ;
+        position: relative;
+        height: 45px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .desc_filtres:hover {
+        color: #DEEBFF;
+        background-color: #0065FC;
+    }
+    
+    .un_icone {
+        color: #0065FC;
+        font-size: 1.2em;
+        border-radius: 50%;
+        background-color: #DEEBFF;
+        position: absolute;
+    }
+
+    .un_icone_money {
+        padding: 7.5%;
+        padding-right: 6%;
+        padding-left: 6%;
+        left: -2%;
+        top: -2.6%;
+
+    }
+    
+    .un_icone_famille {
+        font-size: 1.12em;
+        padding-right: 12%;
+        padding-left: 12%;
+        top: -2%;
+    }
+
+    .un_icone_heart {
+        font-size: 1.12em;
+        top: -2%;
+    }
+
+    .un_icone_animal {
+        font-size: 1.16em;
+        padding-right: 6%;
+        padding-left: 6%;
+        top: -4%;
+    }
+    
+    .info {
+        display: flex;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    .icon_info {
+        font-size: 0.7em;
+        color: #0065FC;
+        border: 1px solid silver;
+        border-radius: 100%;
+        padding-right: 2.7%;
+        padding-left: 2.7%;
+        margin-top: 0%;
+        margin-bottom: 4%;
+    }
+    
+    .hebergements{
+        margin: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 10px;
+    }
+    
+    .hebergements_a_marseille {
+        font-size: 1.2em;
+        font-family: 'Raleway Regular';
+        background-color: white;
+        width: 100%;
+        height: 1500px;
+        padding-top: 2.5%;
+        border-radius: 0;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    
+    .heb_mars {
+        font-family: 'Raleway Bold';
+        font-size: 1.2em;
+        padding-left: 4.5%;
+    }
+    
+    .principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+        height: 95%;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+    
+    .clic_heb {
+        height: 14%;
+        width: 100%;
+    
+    }
+    
+    .figures_hebergements {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 90%;
+        height:100%;
+        border: 5px solid white;
+        border-radius: 30px;
+        box-shadow: 1px 1px 4px silver;
+        margin-top: 0%;
+        margin-right: 0%;
+        margin-left: 3.5%;
+        font-size: 0.8em;
+    }
+    
+    .auberge_1 {
+        width: 100%;
+        position: absolute;
+        border-radius: 28px 28px 0px 0px;
+        background-position: center;
+    }
+    
+    .auberge_2 {
+        width: 105%;
+        position: absolute;
+        border-radius: 28px 28px 0px 0px;
+        left: -3%;
+        top: -50%;
+    }
+    
+    .auberge_3 {
+        width: 105%;
+        position: absolute;
+        border-radius: 28px 28px 0px 0px;
+        left: -3%;
+        top: -10%;
+    }
+    
+    .auberge_4 {
+        width: 105%;
+        position: absolute;
+        border-radius: 28px 28px 0px 0px;
+        left: -2%;
+        top: -110%;
+    }
+    
+    .desc_heb_all {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .desc_heb {
+        font-family: 'Raleway bold';
+        font-size: 1.1em;
+        margin-top: 8px;
+    }
+    
+    p {
+        margin-top: 3%;
+    }
+    
+    .img_heb {
+        border-radius: 28px 28px 0px 0px;
+        position: relative;
+        overflow: hidden;
+        height: 62%;
+        background: url("images/cannebiere.jpg");
+        background-position: center center;
+        background-size: 107%;
+    }
+    
+    .img_heb_1 {
+        border-radius: 28px 28px 0px 0px;
+        position: relative;
+        overflow: hidden;
+        height: 62%;
+        background: url("images/cannebiere.jpg");
+        background-position: center center;
+        background-size: 107%;
+    }
+    
+    .nuit {
+        margin-top: 8px;
+    }
+    
+    .star_heb {
+        display: flex;
+        font-size: 0.8em;
+        margin-top: 8px;
+    }
+    
+    .star_heb_blue {
+        color: #0065FC;
+    }
+    
+    .star_heb_empty {
+        color: silver;
+    }
+    
+    .afficher {
+        font-family: 'Raleway Bold';
+        font-size: 1.1em;
+        margin-left: 4.5%;
+    }
+    
+    aside {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.2em;
+        font-family: 'Raleway Regular';
+        background-color: #F2F2F2;
+        width: 100%;
+        height: 600px;
+        border-radius: 0px;
+        padding-top: 2.5%;
+        margin: 0px;
+    }
+    
+    .tete_pop {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Raleway Bold';
+        font-size: 1.2em;
+        padding-top: 5%;
+        padding-bottom: 2%;
+        margin-right: 3.5%;
+        margin-left: 3.5%;
+    }
+    
+    .principal_pop {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 80%;
+        padding-top: 3%;
+    }
+    
+    .clic_pop {
+        height: 30%;
+        width: 100%;
+    }
+    
+    .figures_pop {
+        display: flex;
+        background-color: white;
+        width: 90%;
+        height: 100%;
+        border: 5px solid white;
+        border-radius: 20px;
+        box-shadow: 1px 1px 4px silver;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 3.5%;
+        font-size: 0.8em;
+    }
+    
+    .img_pop {
+        position: relative;
+        overflow: hidden;
+        width: 65%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+        margin-right: 5%;
+    }
+    
+    .auberge_pop_1 {
+        position: absolute;
+        height: 108%;
+        border-radius: 20px 0px 0px 20px;
+        left: -35%;
+        top: -4%;
+    }
+    
+    .auberge_pop_2 {
+        position: absolute;
+        height: 108%;
+        border-radius: 20px 0px 0px 20px;
+        left: -25%;
+        top: -3%;
+    }
+    
+    .auberge_pop_3 {
+        position: absolute;
+        height: 155%;
+        border-radius: 20px 0px 0px 20px;
+        top: -27%;
+        left: -5%;
+    }
+    
+    .desc_pop {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1em;
+        width: 90%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 5%;
+    }
+    
+    .desc_heb_pop {
+        font-family: 'Raleway bold';
+        font-size: 1.1em;
+        height: 25px;
+        margin-bottom: 15px;
+    }
+    
+    .star_pop {
+        align-self: flex-end;
+        font-size: 0.8em;
+    }
+    
+    .activités_marseille {
+        font-family: 'Raleway Bold';
+        font-size: 1.2em;
+        padding-top: 5%;
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+    .act_mars {
+        font-family: 'Raleway Bold';
+        font-size: 1.2em;
+    }
+    .principal_act {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 1200px;
+        width: 100%;
+        margin-top: 5%;
+    }
+    
+    .figure_act_1 {
+        height: 100%;
+        width: 90%;
+        border-radius: 20px;
+        box-shadow: 1px 1px 4px silver;
+        margin-top: 0%;
+        margin-right: 0%;
+        margin-left: 3.5%;
+    }
+    
+    .act_image_1 {
+        position: absolute;
+        height: 115%;
+        border-radius: 20px 20px 0px 0px;
+        padding-bottom: 13px;
+        left: -61%;
+    }
+    
+    .figure_act_2 {
+        height: 100%;
+        width: 90%;
+        border-radius: 20px;
+        box-shadow: 1px 1px 4px silver;
+        margin-top: 0%;
+        margin-right: 0%;
+        margin-left: 3.5%;
+    }
+    
+    .act_image_2 {
+        position: absolute;
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+        padding-bottom: 13px;
+        top: -53%;
+    }
+    
+    .figure_act_3 {
+        height: 100%;
+        width: 90%;
+        border-radius: 20px;
+        box-shadow: 1px 1px 4px silver;
+        margin-top: 0%;
+        margin-right: 0%;
+        margin-left: 3.5%;
+    }
+    
+    .act_image_3 {
+        position: absolute;
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+        padding-bottom: 13px;
+        top: -25%;
+    }
+    
+    .desc_act {
+        top: 150%;
+        font-size: 0.9em;
+    }
+    
+    .figure_act_2_2 {
+        height: 100%;
+        width: 90%;
+        border-radius: 20px;
+        box-shadow: 1px 1px 4px silver;
+        margin-top: 0%;
+        margin-right: 0%;
+        margin-left: 3.5%;
+    }
+    
+    .act_image_2_2 {
+        position: absolute;
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+        padding-bottom: 13px;
+        left: 0%;
+    }
+    
+    .figure_act_3_2 {
+        height: 100%;
+        width: 90%;
+        border-radius: 20px;
+        box-shadow: 1px 1px 4px silver;
+        margin-top: 0%;
+        margin-right: 0%;
+        margin-left: 3.5%;
+    }
+    
+    .act_image_3_2 {
+        position: absolute;
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+        padding-bottom: 13px;
+        top: -5%;
+    }
+    
+    .img_act_1 {
+        border-radius: 20px 20px 0px 0px;
+        position: relative;
+        overflow: hidden;
+        height: 68%;
+        margin-bottom: 15px;
+    }
+    
+    .img_act_2 {
+        border-radius: 20px 20px 0px 0px;
+        position: relative;
+        overflow: hidden;
+        height: 68%;
+        margin-bottom: 15px;
+    }
+    
+    .img_act_3 {
+        border-radius: 20px 20px 0px 0px;
+        position: relative;
+        overflow: hidden;
+        height: 66%;
+        margin-bottom: 20px;
+    }
+    
+    .img_act_4 {
+        border-radius: 20px 20px 0px 0px;
+        position: relative;
+        overflow: hidden;
+        height: 68%;
+        margin-bottom: 15px;
+        background: url("images/calanques.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 220%;
+    }
+    
+    .img_act_5 {
+        border-radius: 20px 20px 0px 0px;
+        position: relative;
+        overflow: hidden;
+        height: 68%;
+        margin-bottom: 15px;
+        background: url("images/garde.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 107%;
+    }
+    
+    .img_act_6 {
+        border-radius: 20px 20px 0px 0px;
+        position: relative;
+        overflow: hidden;
+        height: 68%;
+        margin-bottom: 15px;
+        background: url("images/longchamp.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 107%;
+    }
+
+    .clic_act_1 {  
+        height: 14%;
+        width: 100%;
+    }
+    
+    .clic_act_2 {
+        height: 14%;
+        width: 100%;
+        
+    }
+    
+    .clic_act_3 {
+        height: 14%;
+        width: 100%;
+    }
+    
+    .clic_act_2_2 {
+        height: 14%;
+        width: 100%;
+    }
+        
+    .clic_act_3_2 {
+        height: 14%;
+        width: 100%;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        font-size: 1em;
+        font-family: 'Raleway Regular';
+        background-color: #F2F2F2;
+        width: 100%;
+        margin-top: 70px;
+        padding-top: 6%;
+    }
+    
+    .fin {
+        height: 120px;
+        width: 90%;
+        margin-left: 7%;
+        margin-top: 5%;
+    }
+
+    .a_propos {
+        margin-bottom: 5%;
+    }
+    
+    .foot {
+        font-family: 'Raleway Bold';
+        font-size: 1.1em;
+    }
+    
+    .desc_foot {
+        margin-top: 15px;
+        line-height: 30px;
+        width: 100%;
+    }
+
+/* } */
