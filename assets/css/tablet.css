@@ -1,9 +1,15 @@
+/*Header*/
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 1.1em;
 }
+
+/*Header*/
+
+/*hébergements*/
 
 .hebergements{
     display: flex;
@@ -24,6 +30,8 @@ nav {
 .desc_heb_all {
     font-size: 0.9em;
 }
+
+/*Aside*/
 
 aside {
     display: flex;
@@ -113,6 +121,8 @@ aside {
     margin-bottom: 15px;
 }
 
+/*Activités*/
+
 .figure_act_1 {
     text-align: center;
 }
@@ -156,7 +166,6 @@ aside {
 .img_act_6 {
     background-size: 130%;
 }
-
 
 .desc_act {
     font-size: 0.8em;
