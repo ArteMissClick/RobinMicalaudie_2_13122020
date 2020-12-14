@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'Raleway Regular';
-    src: url('fonts/static/Raleway-Regular.ttf');
+    src: url('../fonts/static/Raleway-Regular.ttf');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Raleway Bold';
-    src: url('fonts/static/Raleway-Bold.ttf');
+    src: url('../fonts/static/Raleway-Bold.ttf');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Raleway Black';
-    src: url('fonts/static/Raleway-Black.ttf');
+    src: url('../fonts/static/Raleway-Black.ttf');
     font-weight: 900;
     font-style: normal;
 }
@@ -327,7 +327,7 @@ p {
     position: relative;
     overflow: hidden;
     height: 62%;
-    background: url("images/cannebiere.jpg");
+    background: url("../images/cannebiere.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 107%;
@@ -338,7 +338,7 @@ p {
     position: relative;
     overflow: hidden;
     height: 62%;
-    background: url("images/port.jpg");
+    background: url("../images/port.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 107%;
@@ -349,7 +349,7 @@ p {
     position: relative;
     overflow: hidden;
     height: 62%;
-    background: url("images/mouettes.jpg");
+    background: url("../images/mouettes.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 107%;
@@ -360,7 +360,7 @@ p {
     position: relative;
     overflow: hidden;
     height: 62%;
-    background: url("images/mer.jpg");
+    background: url("../images/mer.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 107%;
@@ -371,7 +371,7 @@ p {
     position: relative;
     overflow: hidden;
     height: 62%;
-    background: url("images/panier.jpg");
+    background: url("../images/panier.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 107%;
@@ -382,7 +382,7 @@ p {
     position: relative;
     overflow: hidden;
     height: 62%;
-    background: url("images/amina.jpg");
+    background: url("../images/amina.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 107%;
@@ -469,7 +469,7 @@ aside {
     width: 65%;
     height: 100%;
     border-radius: 20px 0px 0px 20px;
-    background: url("images/matin.jpg");
+    background: url("../images/matin.jpg");
     background-position: center center;
     margin-right: 5%;
     background-repeat: no-repeat;
@@ -482,7 +482,7 @@ aside {
     width: 65%;
     height: 100%;
     border-radius: 20px 0px 0px 20px;
-    background: url("images/eau.jpg");
+    background: url("../images/eau.jpg");
     background-position: center center;
     margin-right: 5%;
     background-repeat: no-repeat;
@@ -495,7 +495,7 @@ aside {
     width: 65%;
     height: 100%;
     border-radius: 20px 0px 0px 20px;
-    background: url("images/blanc.jpg");
+    background: url("../images/blanc.jpg");
     background-position: center center;
     margin-right: 5%;
     background-repeat: no-repeat;
@@ -659,7 +659,7 @@ aside {
     overflow: hidden;
     height: 88%;
     margin-bottom: 20px;
-    background: url("images/vieux_port.jpg");
+    background: url("../images/vieux_port.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 220%;
@@ -671,7 +671,7 @@ aside {
     overflow: hidden;
     height: 78%;
     margin-bottom: 20px;
-    background: url("images/pomegues.jpg");
+    background: url("../images/pomegues.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 107%;
@@ -683,7 +683,7 @@ aside {
     overflow: hidden;
     height: 66%;
     margin-bottom: 20px;
-    background: url("images/frioul.jpg");
+    background: url("../images/frioul.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 107%;
@@ -695,7 +695,7 @@ aside {
     overflow: hidden;
     height: 88%;
     margin-bottom: 20px;
-    background: url("images/calanques.jpg");
+    background: url("../images/calanques.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 220%;
@@ -707,7 +707,7 @@ aside {
     overflow: hidden;
     height: 72%;
     margin-bottom: 20px;
-    background: url("images/garde.jpg");
+    background: url("../images/garde.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 107%;
@@ -719,7 +719,7 @@ aside {
     overflow: hidden;
     height: 74%;
     margin-bottom: 20px;
-    background: url("images/longchamp.jpg");
+    background: url("../images/longchamp.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 107%;
