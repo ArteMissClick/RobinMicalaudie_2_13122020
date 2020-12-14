@@ -39,6 +39,8 @@ header {
 }
 
 .reserv {
+    width: 120px;
+    height: auto;
     margin-top: 30%;
 }
 
@@ -228,6 +230,7 @@ ul {
 .heb_mars {
     font-family: 'Raleway Bold';
     font-size: 1.5em;
+    margin: 0%;
     padding-left: 4.5%;
 }
 
@@ -419,6 +422,11 @@ aside {
     padding-bottom: 2%;
 }
 
+.les_plus_pop {
+    margin: 0%;
+    font-size: 1em;
+}
+
 .principal_pop {
     display: flex;
     flex-direction: column;
@@ -545,6 +553,7 @@ aside {
     font-family: 'Raleway Bold';
     font-size: 1.5em;
     padding-left: 20px;
+    margin: 0%;
 }
 
 .principal_act {
