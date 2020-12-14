@@ -37,9 +37,6 @@ header {
     justify-content: space-between;
     height: 140px;
 }
-.logo {
-    margin-bottom: 2.5%;
-}
 
 .reserv {
     margin-top: 30%;
@@ -47,7 +44,6 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     font-size: 1.2em;
     width: 600px;
@@ -61,13 +57,6 @@ a {
 .blue_1, .blue_2 {
     padding-right: 30px;
     padding-left: 30px;
-}
-
-.blue_2 {
-    margin-right: 90px;
-}
-
-.blue_1 {
     margin-right: 90px;
 }
 
@@ -87,7 +76,6 @@ ul {
     display: flex;
     list-style: none;
     padding: 0;
-    justify-content: space-between;
  }
 
  .recherche {
@@ -108,7 +96,6 @@ ul {
 .inscription {
     color: #0065FC;
     font-family: 'Raleway Bold';
-    justify-content: flex-end;
     margin-right: 4%;
 }
 
@@ -120,16 +107,12 @@ ul {
     display: inline-block;
 }
 
-
 .formulaire {
     display: flex;
-    margin: 0px;
-    padding: 0px;
 }
 
 .fa-map-marker-alt {
     font-size: 18px;
-    margin: 0;
     padding: 15px;
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
@@ -563,6 +546,7 @@ aside {
     font-size: 1.5em;
     padding-left: 20px;
 }
+
 .principal_act {
     display: flex;
     flex-direction: column;
