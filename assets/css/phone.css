@@ -145,23 +145,23 @@ ul {
 }
 
 .un_icone_money {
-    padding: 7.5%;
-    padding-right: 6%;
-    padding-left: 6%;
+    padding: 7.9%;
+    padding-right: 6.2%;
+    padding-left: 6.2%;
     left: -2%;
-    top: -2.6%;
+    top: -5%;
 }
 
 .un_icone_famille {
     font-size: 1.12em;
     padding-right: 12%;
     padding-left: 12%;
-    top: -2%;
+    top: -4%;
 }
 
 .un_icone_heart {
     font-size: 1.12em;
-    top: -2%;
+    top: -4%;
 }
 
 .un_icone_animal {
