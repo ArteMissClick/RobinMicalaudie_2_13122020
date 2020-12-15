@@ -72,12 +72,19 @@ aside {
     margin-left: 20px;
 }
 
-.img_pop {
-    position: relative;
-    overflow: hidden;
+.img_pop_1 {
     width: 75%;
-    height: 100%;
-    border-radius: 20px 0px 0px 20px;
+    background-size: 200%;
+}
+
+.img_pop_2 {
+    width: 75%;
+    background-size: 200%;
+}
+
+.img_pop_1 {
+    width: 75%;
+    background-size: 200%;
 }
 
 .auberge_pop_1 {
