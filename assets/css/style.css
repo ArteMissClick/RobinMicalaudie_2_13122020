@@ -12,13 +12,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Raleway Black';
-    src: url('../fonts/static/Raleway-Black.ttf');
-    font-weight: 900;
-    font-style: normal;
-}
-
 body {
     font-family: 'Raleway Regular';
     margin: 0%;
@@ -139,6 +132,8 @@ ul {
     background-color: #0065FC;
 }
 
+/* Filtres */
+
 .filtres {
     display: flex;
     align-items: center;
@@ -192,6 +187,8 @@ ul {
 .un_filtre {
     margin-left: 45px;
 }
+
+/* Filtres */
 
 .icon_info {
     font-size: 1em;
