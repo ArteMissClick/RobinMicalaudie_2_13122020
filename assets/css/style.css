@@ -111,6 +111,7 @@ ul {
 
 .formulaire {
     display: flex;
+    position: relative;
 }
 
 .fa-map-marker-alt {
@@ -316,7 +317,8 @@ p {
     background: url("../images/cannebiere.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 107%;
+    background-size: cover;
+
 }
 
 .img_heb_2 {
@@ -327,7 +329,7 @@ p {
     background: url("../images/port.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 107%;
+    background-size: cover;
 }
 
 .img_heb_3 {
@@ -338,7 +340,7 @@ p {
     background: url("../images/mouettes.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 107%;
+    background-size: cover;
 }
 
 .img_heb_4 {
@@ -349,7 +351,7 @@ p {
     background: url("../images/mer.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 107%;
+    background-size: cover;
 }
 
 .img_heb_5 {
@@ -360,7 +362,7 @@ p {
     background: url("../images/panier.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 107%;
+    background-size: cover;
 }
 
 .img_heb_6 {
@@ -371,7 +373,7 @@ p {
     background: url("../images/amina.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 107%;
+    background-size: cover;
 }
 
 .nuit {
@@ -464,7 +466,7 @@ aside {
     background-position: center center;
     margin-right: 5%;
     background-repeat: no-repeat;
-    background-size: 160%;
+    background-size: cover;
 }
 
 .img_pop_2 {
@@ -477,7 +479,7 @@ aside {
     background-position: center center;
     margin-right: 5%;
     background-repeat: no-repeat;
-    background-size: 158%;
+    background-size: cover;
 }
 
 .img_pop_3 {
@@ -490,7 +492,7 @@ aside {
     background-position: center center;
     margin-right: 5%;
     background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: cover;
 }
 
 .auberge_pop_1 {
@@ -655,7 +657,7 @@ aside {
     background: url("../images/vieux_port.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 220%;
+    background-size: cover;
 }
 
 .img_act_2 {
@@ -667,7 +669,7 @@ aside {
     background: url("../images/pomegues.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 107%;
+    background-size: cover;
 }
 
 .img_act_3 {
@@ -679,7 +681,7 @@ aside {
     background: url("../images/frioul.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 107%;
+    background-size: cover;
 }
 
 .img_act_4 {
@@ -691,7 +693,7 @@ aside {
     background: url("../images/calanques.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 220%;
+    background-size: cover;
 }
 
 .img_act_5 {
@@ -703,7 +705,7 @@ aside {
     background: url("../images/garde.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 107%;
+    background-size: cover;
 }
 
 .img_act_6 {
@@ -715,7 +717,7 @@ aside {
     background: url("../images/longchamp.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 107%;
+    background-size: cover;
 }
 
 .clic_act_1 {  
